@@ -11,7 +11,7 @@ import SwiftUI
 struct Cookie_CraveApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            HomeView()
         }
     }
 }

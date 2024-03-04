@@ -8,17 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		2966225F2B95C35500653E6E /* Cookie_CraveApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2966225E2B95C35500653E6E /* Cookie_CraveApp.swift */; };
-		296622612B95C35500653E6E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296622602B95C35500653E6E /* ContentView.swift */; };
+		296622612B95C35500653E6E /* ProfileHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296622602B95C35500653E6E /* ProfileHeaderView.swift */; };
 		296622632B95C35800653E6E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 296622622B95C35800653E6E /* Assets.xcassets */; };
 		296622662B95C35800653E6E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 296622652B95C35800653E6E /* Preview Assets.xcassets */; };
+		2966226D2B96313E00653E6E /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2966226C2B96313E00653E6E /* HomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2966225B2B95C35500653E6E /* Cookie Crave.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cookie Crave.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2966225E2B95C35500653E6E /* Cookie_CraveApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cookie_CraveApp.swift; sourceTree = "<group>"; };
-		296622602B95C35500653E6E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		296622602B95C35500653E6E /* ProfileHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHeaderView.swift; sourceTree = "<group>"; };
 		296622622B95C35800653E6E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		296622652B95C35800653E6E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2966226C2B96313E00653E6E /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,9 +54,10 @@
 			isa = PBXGroup;
 			children = (
 				2966225E2B95C35500653E6E /* Cookie_CraveApp.swift */,
-				296622602B95C35500653E6E /* ContentView.swift */,
+				296622602B95C35500653E6E /* ProfileHeaderView.swift */,
 				296622622B95C35800653E6E /* Assets.xcassets */,
 				296622642B95C35800653E6E /* Preview Content */,
+				2966226C2B96313E00653E6E /* HomeView.swift */,
 			);
 			path = "Cookie Crave";
 			sourceTree = "<group>";
@@ -137,7 +140,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				296622612B95C35500653E6E /* ContentView.swift in Sources */,
+				2966226D2B96313E00653E6E /* HomeView.swift in Sources */,
+				296622612B95C35500653E6E /* ProfileHeaderView.swift in Sources */,
 				2966225F2B95C35500653E6E /* Cookie_CraveApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
