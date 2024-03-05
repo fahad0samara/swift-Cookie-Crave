@@ -86,7 +86,7 @@ struct ProductCardView: View {
                             Angle(degrees: 3),
                             axis: (x: 0, y: 1, z: 0)
                         )
-                        .shadow(color: .black, radius: 8, x: 0, y: 4) // Add shadow
+                        .shadow(color: .black, radius: 8, x: 0, y: 4) 
                     
                     Text("Chocolate Chip")
                         .foregroundColor(.white)

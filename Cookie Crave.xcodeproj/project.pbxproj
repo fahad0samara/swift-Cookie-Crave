@@ -16,6 +16,7 @@
 		296D5D272B96E010001AED19 /* ProductCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296D5D262B96E010001AED19 /* ProductCardView.swift */; };
 		296D5D2A2B96F581001AED19 /* CustomShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296D5D292B96F581001AED19 /* CustomShape.swift */; };
 		296D5D2C2B97123F001AED19 /* OffersCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296D5D2B2B97123E001AED19 /* OffersCardView.swift */; };
+		296D5D2E2B975EBC001AED19 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296D5D2D2B975EBC001AED19 /* DetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		296D5D262B96E010001AED19 /* ProductCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCardView.swift; sourceTree = "<group>"; };
 		296D5D292B96F581001AED19 /* CustomShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomShape.swift; sourceTree = "<group>"; };
 		296D5D2B2B97123E001AED19 /* OffersCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OffersCardView.swift; sourceTree = "<group>"; };
+		296D5D2D2B975EBC001AED19 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 			isa = PBXGroup;
 			children = (
 				296D5D232B96D9C9001AED19 /* Home */,
+				296D5D2D2B975EBC001AED19 /* DetailView.swift */,
 			);
 			path = views;
 			sourceTree = "<group>";
@@ -177,6 +180,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2966226D2B96313E00653E6E /* HomeView.swift in Sources */,
+				296D5D2E2B975EBC001AED19 /* DetailView.swift in Sources */,
 				296D5D2C2B97123F001AED19 /* OffersCardView.swift in Sources */,
 				296622612B95C35500653E6E /* ProfileHeaderView.swift in Sources */,
 				296D5D2A2B96F581001AED19 /* CustomShape.swift in Sources */,
