@@ -13,6 +13,8 @@
 		296622662B95C35800653E6E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 296622652B95C35800653E6E /* Preview Assets.xcassets */; };
 		2966226D2B96313E00653E6E /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2966226C2B96313E00653E6E /* HomeView.swift */; };
 		296D5D252B96D9F5001AED19 /* CookiesTitleBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296D5D242B96D9F5001AED19 /* CookiesTitleBar.swift */; };
+		296D5D272B96E010001AED19 /* ProductCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296D5D262B96E010001AED19 /* ProductCardView.swift */; };
+		296D5D2A2B96F581001AED19 /* CustomShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296D5D292B96F581001AED19 /* CustomShape.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +25,8 @@
 		296622652B95C35800653E6E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2966226C2B96313E00653E6E /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		296D5D242B96D9F5001AED19 /* CookiesTitleBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CookiesTitleBar.swift; sourceTree = "<group>"; };
+		296D5D262B96E010001AED19 /* ProductCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCardView.swift; sourceTree = "<group>"; };
+		296D5D292B96F581001AED19 /* CustomShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomShape.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,12 +85,22 @@
 		296D5D232B96D9C9001AED19 /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				296D5D282B96F565001AED19 /* helpr */,
 				296622602B95C35500653E6E /* ProfileHeaderView.swift */,
 				2966225E2B95C35500653E6E /* Cookie_CraveApp.swift */,
 				2966226C2B96313E00653E6E /* HomeView.swift */,
 				296D5D242B96D9F5001AED19 /* CookiesTitleBar.swift */,
+				296D5D262B96E010001AED19 /* ProductCardView.swift */,
 			);
 			path = Home;
+			sourceTree = "<group>";
+		};
+		296D5D282B96F565001AED19 /* helpr */ = {
+			isa = PBXGroup;
+			children = (
+				296D5D292B96F581001AED19 /* CustomShape.swift */,
+			);
+			path = helpr;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -161,8 +175,10 @@
 			files = (
 				2966226D2B96313E00653E6E /* HomeView.swift in Sources */,
 				296622612B95C35500653E6E /* ProfileHeaderView.swift in Sources */,
+				296D5D2A2B96F581001AED19 /* CustomShape.swift in Sources */,
 				296D5D252B96D9F5001AED19 /* CookiesTitleBar.swift in Sources */,
 				2966225F2B95C35500653E6E /* Cookie_CraveApp.swift in Sources */,
+				296D5D272B96E010001AED19 /* ProductCardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

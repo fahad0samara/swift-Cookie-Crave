@@ -11,6 +11,7 @@ struct HomeView: View {
     var body: some View {
         ProfileHeaderView()
         CookiesTitleBar()
+        ProductCardView().padding(.top,90)
         Spacer()
     }
 }
