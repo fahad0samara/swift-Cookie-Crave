@@ -8,10 +8,12 @@
 import SwiftUI
 
 struct CookiesTitleBar: View {
+    var title: String // Add a parameter for the title text
+    
     var body: some View {
         HStack {
-            Text("Cookies")
-                .font(.title)
+            Text(title) // Use the dynamic title text
+                .font(.largeTitle)
                 .padding(.leading)
             
             Spacer()
@@ -28,6 +30,7 @@ struct CookiesTitleBar: View {
 
 
 
+
 #Preview {
-    CookiesTitleBar()
+    CookiesTitleBar(title: "New Cookies")
 }
