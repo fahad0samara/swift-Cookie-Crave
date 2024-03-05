@@ -12,6 +12,7 @@
 		296622632B95C35800653E6E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 296622622B95C35800653E6E /* Assets.xcassets */; };
 		296622662B95C35800653E6E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 296622652B95C35800653E6E /* Preview Assets.xcassets */; };
 		2966226D2B96313E00653E6E /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2966226C2B96313E00653E6E /* HomeView.swift */; };
+		296D5D252B96D9F5001AED19 /* CookiesTitleBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296D5D242B96D9F5001AED19 /* CookiesTitleBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		296622622B95C35800653E6E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		296622652B95C35800653E6E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2966226C2B96313E00653E6E /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		296D5D242B96D9F5001AED19 /* CookiesTitleBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CookiesTitleBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,11 +55,9 @@
 		2966225D2B95C35500653E6E /* Cookie Crave */ = {
 			isa = PBXGroup;
 			children = (
-				2966225E2B95C35500653E6E /* Cookie_CraveApp.swift */,
-				296622602B95C35500653E6E /* ProfileHeaderView.swift */,
+				296D5D222B96D9C1001AED19 /* views */,
 				296622622B95C35800653E6E /* Assets.xcassets */,
 				296622642B95C35800653E6E /* Preview Content */,
-				2966226C2B96313E00653E6E /* HomeView.swift */,
 			);
 			path = "Cookie Crave";
 			sourceTree = "<group>";
@@ -68,6 +68,25 @@
 				296622652B95C35800653E6E /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		296D5D222B96D9C1001AED19 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				296D5D232B96D9C9001AED19 /* Home */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		296D5D232B96D9C9001AED19 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				296622602B95C35500653E6E /* ProfileHeaderView.swift */,
+				2966225E2B95C35500653E6E /* Cookie_CraveApp.swift */,
+				2966226C2B96313E00653E6E /* HomeView.swift */,
+				296D5D242B96D9F5001AED19 /* CookiesTitleBar.swift */,
+			);
+			path = Home;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,6 +161,7 @@
 			files = (
 				2966226D2B96313E00653E6E /* HomeView.swift in Sources */,
 				296622612B95C35500653E6E /* ProfileHeaderView.swift in Sources */,
+				296D5D252B96D9F5001AED19 /* CookiesTitleBar.swift in Sources */,
 				2966225F2B95C35500653E6E /* Cookie_CraveApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
